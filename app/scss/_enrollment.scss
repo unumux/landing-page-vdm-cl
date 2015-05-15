@@ -5,6 +5,10 @@
 .enrollment-options {
 	margin-top: 1em;
 	
+	// Stretch blocks to the edges of the screen
+	margin-left: -1em;
+	margin-right: -1em;
+	
 	li {
 		background-color: $steel-blue;
 		background-position: center 1em;
