@@ -1,0 +1,91 @@
+.enrollment {
+	padding: 1em;
+}
+
+.enrollment-options {
+	margin-top: 1em;
+	
+	li {
+		background-color: $steel-blue;
+		color: #fff;
+		list-style: none;
+		padding: 1em 1em 6em 1em;
+		position: relative;
+		
+		h2 {
+			margin-top: 0;
+			text-align: center;
+		}
+		
+		& + li {
+			margin-top: 2em;
+		}
+	}
+	
+	.call-to-action {
+		display: block;
+		font-size: 1.1em;
+		line-height: 1em;
+		margin: 0;
+		position: absolute;
+			bottom: 1em;
+			left: 1em;
+			right: 1em;
+	}
+
+	a.call-to-action {
+		background-color: $mint;
+		border-radius: 3px;
+		border-bottom: 2px solid darken($mint, 5);
+		color: #fff;
+		overflow: hidden;
+		padding: 1em;
+		text-align: center;
+		text-decoration: none;
+		transition: padding 0.5s;
+
+		&:after {
+			background:transparent url('/img/arrow.svg') no-repeat center center;
+			content: '';
+			height: 25px;
+			opacity: 0;
+			position: absolute;
+			right: -25px;
+			top: 15px;
+			transform: rotate(180deg);
+			transition: right 0.5s, opacity 1s, transform 0.5s;
+			width: 25px;
+		}
+
+		&:hover {
+			padding-right: 2em;
+		}
+
+		&:hover:after {
+			opacity: 1;
+			right: 10px;
+			transform: rotate(0deg);
+		}
+		
+		&:active {
+			background-color: darken($mint, 5);
+		}
+
+	}
+}
+
+@media all and (min-width: 960px) {
+  .enrollment-options {
+	  display: table;
+	  table-layout: fixed;
+	  width: 100%;
+	  
+	  li {
+		  display: table-cell;
+		  
+		& + li {
+			border-left:10px solid #fff;
+		}
+	  }
+  }
+}

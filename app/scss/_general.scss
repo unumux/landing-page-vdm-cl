@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'sans-serif';
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', 'sans-serif';
+  font-weight: 300;
+  margin: 1em 0 0 0;
+}
+
+strong {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 1em 0 0 0;
+}
+
+.contain {
+  margin: 0 auto;
+}
+
+@media all and (min-width: 768) {
+  .contain {
+    width: 768px;
+  }
+}
+
+@media all and (min-width: 960px) and (max-width: 1240px) {
+  .contain {
+    width: 960px;
+  }
+}
+
+@media all and (min-width: 1241px) {
+  .contain {
+    width: 1240px;
+  }
+}
+
+:first-child {
+  margin-top: 0;
+}
