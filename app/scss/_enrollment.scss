@@ -8,7 +8,10 @@
 	// Stretch blocks to the edges of the screen
 	margin-left: -1em;
 	margin-right: -1em;
-	
+	h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+
 	li {
 		background-color: $steel-blue;
 		background-position: center 1em;
