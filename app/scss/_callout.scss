@@ -1,0 +1,7 @@
+.callout {
+	@media (min-width:960px) {
+		&.contain {
+			width:650px;
+		}
+	}
+}

@@ -12,6 +12,16 @@
 		color: #fff;
 	}
 
+	h3 {
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight:600;
+		text-align:left;
+	}
+
+	h3 + p {
+		margin:0;
+	}
+
 	li {
 		background-color: $steel-blue;
 		background-position: center 1em;
@@ -89,7 +99,12 @@
 		&:active {
 			background-color: darken($mint, 5);
 		}
+	}
 
+	@media (min-width:600px) {
+		li {
+			
+		}
 	}
 }
 

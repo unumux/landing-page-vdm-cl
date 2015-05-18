@@ -1,12 +1,14 @@
 .page-header {
 	background-color: rgba(255,255,255,0.8);
 	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	font-family: 'Oswald', Helvetica, sans-serif;
 	padding: 1em;
 	position:fixed;
 	transition: background-color 0.5s;
 	top:0;
 	width:100%;
 	z-index:99;
+	
 	
 	.page-scrolled & {
 		background-color: rgba(255, 255, 255, 1);
@@ -15,9 +17,14 @@
 	img {
 		height: 35px;
 	}
+
+	// @media (min-width:960px) {
+	// 	top:10px;
+	// }
 }
 .enrollment-message {
 	float: right;
+	font-size: 12px;
 	font-weight: 400;
 	margin-top: 0;
 	text-align: right;
@@ -27,7 +34,6 @@
 	color: $ocean;
 	display: block;
 	font-size: 1.3em;
-	font-weight: 600;
 }
 
 @media all and (min-width: 960px) {

@@ -1,4 +1,48 @@
 .requirements {
 	padding: 1em;
 	text-align: center;
+
+	&:after {
+		content:'';
+		display:table;
+		clear:both;
+	}
+
+	ul{
+		text-align:left;
+		//padding-left:40px;
+	}
+
+	li {
+    list-style-type: none;
+    padding: 1em 0 0 1em; 
+    text-indent: -.7em;
+
+    &:before {
+      content: '';
+      display:inline-block;
+      background: $mint;
+      height:8px;
+      width:8px;
+      margin:6px 5px 0 0;
+      vertical-align:top;
+    }
+  }
+
+   @media (min-width:650px) {
+   		ul {
+   			padding-left:40px;
+   		}
+
+   		li {
+			float:left;
+			width:50%;
+		}
+   }
+
+	@media (min-width:960px) {
+		&.contain {
+			width:650px;
+		}
+	}
 }
