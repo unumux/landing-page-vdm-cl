@@ -1,9 +1,9 @@
-(function () {
+
 
 	function getScrollTop() {
 		requestAnimationFrame(getScrollTop);
 		
-		if(document.body.scrollTop > 0) {
+		if(document.body.scrollTop > 0 || window.pageYOffset > 0) {
 			document.body.classList.add('page-scrolled');
 		}
 		
@@ -14,5 +14,7 @@
 	
 	window.addEventListener('DOMContentLoaded', getScrollTop);
 
-})();
+window.onscroll = function() {
+    getScrollTop();
+};
 
