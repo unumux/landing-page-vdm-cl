@@ -1,7 +1,50 @@
 .callout {
-	@media (min-width:960px) {
-		&.contain {
-			width:650px;
+	background: rgba($leaf, .9);
+	color: #fff;
+	margin: 0 0 1em;
+	padding: 2em 1em;
+
+	h1 {
+		color: #fff;
+	}
+
+	p {
+		font-size:1.5em;
+		font-family: 'Oswald';
+		margin:.5em 0 0;
+	}
+
+	@media (min-width:680px) {
+		width: 400px;
+		float:left;
+		margin:-243px 0 0 1em;
+
+		p {
+			font-size: 2em;
+			margin:0;
 		}
+	}
+
+	@media all and (min-width:960px) {
+		top:280px;
+	}
+}
+
+.callout-extra {
+	padding: 1em;
+	margin:0 0 1em;
+
+	@media (min-width:700px) {
+		margin:0;
+		padding:0 1em 1em 0;
+		display:table-cell;
+		vertical-align: top;
+	}
+}
+
+.table-layout {
+	@media (min-width:700px) {
+		display:table;
+		padding:0 1em;
 	}
 }

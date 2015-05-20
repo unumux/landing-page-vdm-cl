@@ -3,7 +3,7 @@
 	function getScrollTop() {
 		requestAnimationFrame(getScrollTop);
 		
-		if(document.body.scrollTop > 0 || window.pageYOffset > 0) {
+		if(document.body.scrollTop > 20 || window.pageYOffset > 20) {
 			document.body.classList.add('page-scrolled');
 		}
 		

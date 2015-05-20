@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="202px" height="92px" viewBox="0 0 202 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="162px" height="90px" viewBox="0 0 162 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
-    <title>Computer</title>
+    <title>Shape Copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-18.000000, -699.000000)" fill="#FFFFFF">
-            <g id="Block-1/2" sketch:type="MSLayerGroup" transform="translate(-31.000000, 679.000000)">
-                <g id="Computer" transform="translate(49.000000, 20.000000)" sketch:type="MSShapeGroup">
-                    <path d="M86,84.4999998 L0.898068768,84.4999998 C1.79170829,88.3942482 15.8448931,91.9999994 15.8448931,91.9999994 L102,91.9999997 L102,91.9999997 L102,87 L88.497515,87 C87.1181755,87 86,85.8903379 86,84.5 Z" id="body"></path>
-                    <path d="M117,84.4999998 L201.101931,84.4999998 C200.208292,88.3942482 186.155107,91.9999994 186.155107,91.9999994 L100,91.9999997 L100,91.9999997 L100,87 L114.502485,87 C115.878379,87 117,85.8807119 117,84.5 Z" id="Body"></path>
-                    <path d="M18,5.00435829 C18,2.24052752 20.2421881,0 23.0008327,0 L175.999167,0 C178.761051,0 181,2.24422058 181,5.00435829 L181,74.9956417 C181,77.7594725 178.757812,80 175.999167,80 L23.0008327,80 C20.2389491,80 18,77.7557794 18,74.9956417 L18,5.00435829 Z M23,8 L176,8 L176,73 L23,73 L23,8 Z" id="Monitor"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-Final" sketch:type="MSArtboardGroup" transform="translate(-749.000000, -1134.000000)" fill="#265B80">
+            <g id="Body" sketch:type="MSLayerGroup" transform="translate(0.000000, 548.000000)">
+                <g id="Block-Section-Copy" transform="translate(55.500000, 425.000000)" sketch:type="MSShapeGroup">
+                    <g id="Block-Three" transform="translate(640.000000, 161.000000)">
+                        <g id="ONLINE-+-Shape-Copy" transform="translate(54.000000, 0.000000)">
+                            <path d="M136.607143,0 L24.1071429,0 C21.4425,0 19.2857143,2.15839286 19.2857143,4.82142857 L19.2857143,6.42857143 L19.2857143,72.3214286 C19.2857143,74.9844643 21.4425,77.1428571 24.1071429,77.1428571 L25.7142857,77.1428571 L135,77.1428571 L136.607143,77.1428571 C139.268571,77.1428571 141.428571,74.9844643 141.428571,72.3214286 L141.428571,6.42857143 L141.428571,4.82142857 C141.428571,2.15839286 139.270179,0 136.607143,0 L136.607143,0 Z M135,70.7142857 L25.7142857,70.7142857 L25.7142857,6.42857143 L135,6.42857143 L135,70.7142857 Z M91.6071429,81.9642857 L91.6071429,83.5714286 C91.6071429,84.4601786 90.88875,85.1785714 90,85.1785714 L70.7142857,85.1785714 C69.8255357,85.1785714 69.1071429,84.4601786 69.1071429,83.5714286 L69.1071429,81.9642857 L0,81.9642857 L0,85.1785714 C0,85.1785714 0,90 4.82142857,90 L155.892857,90 C160.714286,90 160.714286,85.1785714 160.714286,85.1785714 L160.714286,81.9642857 L91.6071429,81.9642857 Z" id="Shape-Copy"></path>
+                        </g>
+                    </g>
                 </g>
             </g>
         </g>

@@ -1,25 +1,22 @@
 .banner {
-	background: url('/img/placeholder600.jpg') no-repeat 0 30%;
+	background: url('/img/placeholder600.jpg') no-repeat center right;
 	background-size:cover;
 	min-height: 300px;
-	padding: 1em;
+	padding: 1em 1em 0;
 	transition: all ease 0.2s;
 
 	@media all and (min-width:500px) {
 		background-image: url('/img/placeholder1024.jpg');
 	}
 
-	@media all and (min-width:768px) {
+	@media all and (min-width:700px) {
+		margin:0 0 2em;
 		min-height:400px;
 	}
 
 	@media all and (min-width:960px) {
 		background-image: url('/img/placeholder.jpg');
+		background-position: right 10%;
 		min-height: 500px;
 	}
-}
-
-.callout {
-	padding: 1em;
-	text-align: center;
 }

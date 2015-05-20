@@ -1,18 +1,23 @@
 .enrollment {
 	padding: 1em;
+
+	h1 {
+		font-size:2em;
+		text-align: center;
+	}
+
+	@media (min-width:960px) {
+		border-top: 3px solid $pewter;
+		margin-top:3em;
+		padding-top:3em;
+	}
 }
 
 .enrollment-options {
 	margin-top: 1em;
-	
-	// Stretch blocks to the edges of the screen
-	margin-left: -1em;
-	margin-right: -1em;
-	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
-	}
 
 	h3 {
+		color: $charcoal;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight:600;
 		text-align:left;
@@ -23,21 +28,20 @@
 	}
 
 	li {
-		background-color: $steel-blue;
 		background-position: center 1em;
 		background-repeat: no-repeat;
-		color: #fff;
+		border-bottom: 1px solid $charcoal;
 		list-style: none;
-		padding: 120px 1em 6em 1em;
+		margin:0 0 3em;
+		padding: 120px 1em 3em;
 		position: relative;
 		
 		h2 {
-			margin-top: 0;
+			color: $steel-blue;
+			font-family: 'Source Sans Pro';
+			font-weight: 600;
+			text-transform: uppercase;
 			text-align: center;
-		}
-		
-		&:nth-child(even) {
-			background-color: rgba($steel-blue, 0.85);
 		}
 
 	}
@@ -46,18 +50,17 @@
 		display: block;
 		font-size: 1em;
 		line-height: 1em;
-		margin: 0;
+		margin: 3em auto 0;
 		text-align: center;
-		position: absolute;
-			bottom: 1em;
-			left: 1em;
-			right: 1em;
+		position: relative;
+		max-width:300px;
 
 			span {
 				color: $ocean;
 				display:block;
 				font-size:1.6em;
 				line-height:1.5;
+				text-decoration: underline;
 				width:100%;
 			}
 	}
@@ -100,12 +103,6 @@
 			background-color: darken($mint, 5);
 		}
 	}
-
-	@media (min-width:600px) {
-		li {
-			
-		}
-	}
 }
 
 .in-person {
@@ -120,7 +117,7 @@
 	background-image: url('/img/icon-laptop.svg');
 }
 
-@media all and (min-width: 960px) {
+@media all and (min-width: 700px) {
   .enrollment-options {
 	  display: table;
 	  table-layout: fixed;
@@ -128,6 +125,7 @@
 	  
 	  li {
 		  display: table-cell;
+		  border-bottom:none;
 		  
 		& + li {
 			border-left:10px solid #fff;
