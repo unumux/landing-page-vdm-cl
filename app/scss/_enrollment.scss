@@ -109,12 +109,24 @@
 	background-image: url('/img/icon-person.svg');
 }
 
+.no-svg .in-person {
+	background-image: url('/img/icon-person.png');
+}
+
 .by-phone {
 	background-image: url('/img/icon-phone.svg');
 }
 
+.no-svg .by-phone {
+	background-image: url('/img/icon-phone.png');
+}
+
 .online {
 	background-image: url('/img/icon-laptop.svg');
+}
+
+.no-svg .online {
+	background-image: url('/img/icon-laptop.png');
 }
 
 @media all and (min-width: 700px) {

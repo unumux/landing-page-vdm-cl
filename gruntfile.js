@@ -76,7 +76,7 @@ module.exports = function (grunt) {
 
     uglify: {
       deploy: {
-        src: 'dist/js/main.js',
+        src: ['dist/js/main.js'],
         dest: 'dist/js/main.min.js'
       }
     },
@@ -99,6 +99,12 @@ module.exports = function (grunt) {
       html: {
         cwd: 'app/',
         src: '**/*.html',
+        dest: 'dist/',
+        expand: true
+      },
+      modernizr: {
+        cwd: 'app/',
+        src: 'js/modernizr.js',
         dest: 'dist/',
         expand: true
       },
@@ -148,8 +154,8 @@ module.exports = function (grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('default', ['clean', 'copy', 'sass:dev', 'jshint', 'concat', 'babel', 'autoprefixer:dev', 'captain_hook:dev', 'browserSync', 'watch']);
-  grunt.registerTask('dist', ['clean', 'copy', 'sass:dist', 'jshint', 'concat', 'babel', 'autoprefixer:dist', 'uglify', 'captain_hook:dist']);
+  grunt.registerTask('default', ['clean', 'copy', 'sass:dev', 'concat', 'babel', 'autoprefixer:dev', 'captain_hook:dev', 'browserSync', 'watch']);
+  grunt.registerTask('dist', ['clean', 'copy', 'sass:dist', 'concat', 'babel', 'autoprefixer:dist', 'uglify', 'captain_hook:dist']);
 
 };
 
