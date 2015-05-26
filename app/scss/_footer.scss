@@ -1,10 +1,28 @@
 .page-footer {
 	background: $steel-blue;
 	color: #fff;
-	margin-top: 2em;
 	padding-top:2em;
 }
 
 .legal {
 	padding: 1em;
+
+	a {
+		display:inline-block;
+		width:100%;
+		text-align:center;
+	}
+
+	@media (min-width:680px) {
+		a {
+			width:25%;
+			vertical-align:top;
+		}
+
+		.pull-right {
+			display:inline-block;
+			padding:0 0 0 1em;
+			width:70%;
+		}
+	}
 }

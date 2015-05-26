@@ -1,12 +1,12 @@
 .banner {
-	background: url('/img/placeholder600.jpg') no-repeat center right;
+	background: url('../img/placeholder600.jpg') no-repeat center right;
 	background-size:cover;
 	min-height: 300px;
 	padding: 1em 1em 0;
 	transition: all ease 0.2s;
 
 	@media all and (min-width:500px) {
-		background-image: url('/img/placeholder1024.jpg');
+		background-image: url('../img/placeholder1024.jpg');
 	}
 
 	@media all and (min-width:700px) {
@@ -15,7 +15,7 @@
 	}
 
 	@media all and (min-width:960px) {
-		background-image: url('/img/placeholder.jpg');
+		background-image: url('../img/placeholder.jpg');
 		background-position: right 10%;
 		min-height: 500px;
 	}

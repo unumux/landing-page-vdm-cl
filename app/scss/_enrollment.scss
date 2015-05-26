@@ -2,15 +2,18 @@
 	padding: 1em;
 
 	h1 {
+		display:none;
 		font-size:2em;
 		text-align: center;
 	}
 
 	@media (min-width:960px) {
-		border-top: 3px solid $pewter;
 		margin-top:3em;
-		padding-top:3em;
 	}
+}
+
+.no-svg .enrollment-options a.call-to-action:after {
+	background-image: url('../img/arrow.png');
 }
 
 .enrollment-options {
@@ -30,7 +33,6 @@
 	li {
 		background-position: center 1em;
 		background-repeat: no-repeat;
-		border-bottom: 1px solid $charcoal;
 		list-style: none;
 		margin:0 0 3em;
 		padding: 120px 1em 3em;
@@ -48,19 +50,20 @@
 	
 	.call-to-action {
 		display: block;
-		font-size: 1em;
+		color: $steel-blue;
+		font-size: 1.2em;
+		font-weight:600;
 		line-height: 1em;
 		margin: 3em auto 0;
 		text-align: center;
 		position: relative;
-		max-width:300px;
+		max-width:250px;
 
 			span {
 				color: $ocean;
 				display:block;
-				font-size:1.6em;
+				font-weight:400;
 				line-height:1.5;
-				text-decoration: underline;
 				width:100%;
 			}
 	}
@@ -70,20 +73,20 @@
 		border-radius: 3px;
 		border-bottom: 2px solid darken($mint, 5);
 		color: #fff;
-		font-size:1.1em;
+		font-weight:400;
 		overflow: hidden;
 		padding: 1em;
 		text-decoration: none;
 		transition: padding 0.5s;
 
 		&:after {
-			background:transparent url('/img/arrow.svg') no-repeat center center;
+			background:transparent url('../img/arrow.svg') no-repeat center center;
 			content: '';
 			height: 25px;
 			opacity: 0;
 			position: absolute;
 			right: -25px;
-			top: 15px;
+			top: 17px;
 			transform: rotate(180deg);
 			transition: right 0.5s, opacity 1s, transform 0.5s;
 			width: 25px;
@@ -106,27 +109,27 @@
 }
 
 .in-person {
-	background-image: url('/img/icon-person.svg');
+	background-image: url('../img/icon-person.svg');
 }
 
 .no-svg .in-person {
-	background-image: url('/img/icon-person.png');
+	background-image: url('../img/icon-person.png');
 }
 
 .by-phone {
-	background-image: url('/img/icon-phone.svg');
+	background-image: url('../img/icon-phone.svg');
 }
 
 .no-svg .by-phone {
-	background-image: url('/img/icon-phone.png');
+	background-image: url('../img/icon-phone.png');
 }
 
 .online {
-	background-image: url('/img/icon-laptop.svg');
+	background-image: url('../img/icon-laptop.svg');
 }
 
 .no-svg .online {
-	background-image: url('/img/icon-laptop.png');
+	background-image: url('../img/icon-laptop.png');
 }
 
 @media all and (min-width: 700px) {
@@ -137,7 +140,6 @@
 	  
 	  li {
 		  display: table-cell;
-		  border-bottom:none;
 		  
 		& + li {
 			border-left:10px solid #fff;
