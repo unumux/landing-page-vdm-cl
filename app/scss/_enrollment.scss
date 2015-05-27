@@ -7,6 +7,12 @@
 		text-align: center;
 	}
 
+	@media (min-width:680px) {
+		h1 {
+			display:block;
+		}
+	}
+
 	@media (min-width:960px) {
 		margin-top:3em;
 	}
@@ -132,7 +138,7 @@
 	background-image: url('../img/icon-laptop.png');
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 680px) {
   .enrollment-options {
 	  display: table;
 	  table-layout: fixed;

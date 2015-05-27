@@ -1,11 +1,16 @@
 .requirements {
-	background: $leaf;
+	background: url('../img/dependents_bg.jpg') no-repeat;
+	background-size:cover;
 	color: #fff;
 	padding: 2em 1em;
 	text-align:center;
 
 	h1 {
 		color: #fff;
+	}
+
+	p {
+		font-size: 1.2em;
 	}
 
 	ul {
@@ -21,16 +26,62 @@
 		}
 
 		li {
+			
 			float:left;
 			margin:0 0 1.5em;
 			line-height: 1;
+			padding:3em 0 0;
 			width:50%;
-
-			span {
-				width:100%;
-				display:block;
-				margin:.5em 0 0;
-			}
 		}
 	}
+
+	@media (min-width:500px) {
+		background-image: url('../img/dependents_bg1200.jpg');
+	}
+
+	@media (min-width:680px) {
+		ul li {
+			width:25%;
+		}
+	}
+
+	@media (min-width:768px) {
+		.contain {
+			width: 768px;
+		}
+	}
+}
+
+.name {
+	background: url('../img/profile-small.svg') no-repeat top center;
+}
+
+.birthday {
+	background: url('../img/birthday.svg') no-repeat top center;
+}
+
+.ssn {
+	background: url('../img/ssn_card.svg') no-repeat top center;
+}
+
+.address {
+	background: url('../img/house-small.svg') no-repeat top center;
+}
+
+//IE8 PNG Fallback
+
+.no-svg .name {
+	background-image: url('../img/profile-small.png');
+}
+
+.no-svg .birthday {
+	background-image: url('../img/birthday.png');
+}
+
+.no-svg .ssn {
+	background-image: url('../img/ssn_card.png');
+}
+
+.no-svg .address {
+	background-image: url('../img/house-small.png')
 }
