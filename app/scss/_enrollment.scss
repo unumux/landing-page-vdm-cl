@@ -23,13 +23,13 @@
 }
 
 .enrollment-options {
+	text-align:center;
 	margin-top: 1em;
 
 	h3 {
 		color: $charcoal;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight:600;
-		text-align:left;
 	}
 
 	h3 + p {
@@ -39,10 +39,15 @@
 	li {
 		background-position: center 1em;
 		background-repeat: no-repeat;
+		border-bottom: 2px solid $pewter;
 		list-style: none;
 		margin:0 0 3em;
-		padding: 120px 1em 3em;
+		padding: 7.5em 1em 3em;
 		position: relative;
+
+		&:last-child {
+			border-bottom: none;
+		}
 		
 		h2 {
 			color: $steel-blue;
@@ -60,10 +65,9 @@
 		font-size: 1.2em;
 		font-weight:600;
 		line-height: 1em;
-		margin: 3em auto 0;
+		margin: 1.5em -1em 0;
 		text-align: center;
 		position: relative;
-		max-width:250px;
 
 			span {
 				color: $ocean;
@@ -78,6 +82,14 @@
 				color: $ocean;
 
 			}
+
+		@media (min-width:680px) {
+			margin:1.5em auto 0;
+		}
+
+		@media (min-width:960px) {
+			max-width:250px;
+		}
 	}
 
 	a.call-to-action {
@@ -87,7 +99,7 @@
 		color: #fff;
 		font-weight:400;
 		overflow: hidden;
-		padding: 1em;
+		padding: 1em 2em 1em 1em;
 		text-decoration: none;
 		transition: padding 0.5s;
 
@@ -95,27 +107,41 @@
 			background:transparent url('../img/arrow.svg') no-repeat center center;
 			content: '';
 			height: 25px;
-			opacity: 0;
+			opacity: 1;
 			position: absolute;
-			right: -25px;
+			right: 10px;
 			top: 17px;
-			transform: rotate(180deg);
 			transition: right 0.5s, opacity 1s, transform 0.5s;
 			width: 25px;
-		}
-
-		&:hover {
-			padding-right: 2em;
 		}
 
 		&:hover:after {
 			opacity: 1;
 			right: 10px;
-			transform: rotate(0deg);
 		}
 		
 		&:active {
 			background-color: darken($mint, 5);
+		}
+
+		@media (min-width:960px) {
+			padding:1em;
+
+			&:hover {
+				padding-right: 2em;
+			}
+
+			&:after {
+				opacity:0;
+				right:-25px;
+				transform: rotate(180deg);
+			}
+
+			&:hover:after {
+				opacity: 1;
+				right: 10px;
+				transform: rotate(0deg);
+			}
 		}
 	}
 }
@@ -152,6 +178,7 @@
 	  
 	  li {
 		  display: table-cell;
+		  border-bottom:none;
 		  
 		& + li {
 			border-left:10px solid #fff;
