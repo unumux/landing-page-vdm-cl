@@ -2,19 +2,8 @@
 	padding: 1em;
 
 	h1 {
-		display:none;
 		font-size:2em;
 		text-align: center;
-	}
-
-	@media (min-width:680px) {
-		h1 {
-			display:block;
-		}
-	}
-
-	@media (min-width:960px) {
-		margin-top:3em;
 	}
 }
 

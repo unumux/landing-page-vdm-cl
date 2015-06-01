@@ -1,5 +1,5 @@
 .callout {
-	background: $leaf;
+	background: $steel-blue;
 	color: #fff;
 	margin: 0 0 1em;
 	padding: 2em 1em;
@@ -14,7 +14,7 @@
 	}
 
 	@media (min-width:680px) {
-		background: rgba($leaf, .8);
+		background: rgba($steel-blue, .6);
 		width: 420px;
 		float:left;
 		margin:-320px 0 0;
