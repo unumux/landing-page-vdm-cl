@@ -1,5 +1,5 @@
 .requirements {
-	background: url('../img/dependents_bg.jpg') no-repeat;
+	background: url('../img/dependents_bg600.jpg') no-repeat 60% 0%;
 	background-size:cover;
 	color: #fff;
 	padding: 2em 1em;
@@ -35,8 +35,14 @@
 		}
 	}
 
-	@media (min-width:500px) {
-		background-image: url('../img/dependents_bg1200.jpg');
+	@media (min-width:600px) {
+		background-image: url('../img/dependents_bg1024.jpg');
+		background-position: right 40%;
+		
+	}
+
+	@media (min-width:1024px) {
+		background-image: url('../img/dependents_bg.jpg');
 	}
 
 	@media (min-width:500px) {
