@@ -7,15 +7,16 @@
 
 	@media all and (min-width:500px) {
 		background-image: url('../img/placeholder1024.jpg');
+		background-position: right 20%;
 	}
 
-	@media all and (min-width:700px) {
+	@media all and (min-width:680px) {
 		margin:0 0 1em;
+		min-height: 400px;
 	}
 
 	@media all and (min-width:960px) {
 		background-image: url('../img/placeholder.jpg');
 		background-position: right 20%;
-		min-height: 400px;
 	}
 }

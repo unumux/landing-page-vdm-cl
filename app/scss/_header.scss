@@ -5,9 +5,9 @@
 	padding: .5em 1em;
 	position:fixed;
 	transition: all 0.5s;
-	width:100%;
+	width:100%; 
 	z-index:99;
-	
+
 	img {
 		height: 35px;
 	}
@@ -27,7 +27,7 @@
 
 	@media (min-width:680px) {
 		font-size: 1.2em;
-		padding:12px 0 0;
+		padding:9px 0 0;
 	}
 }
 

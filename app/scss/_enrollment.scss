@@ -36,6 +36,7 @@
 
 		&:last-child {
 			border-bottom: none;
+			margin:0;
 		}
 		
 		h2 {
@@ -162,7 +163,9 @@
 @media all and (min-width: 680px) {
   .enrollment-options {
 	  display: table;
+	  margin-bottom:1em;
 	  table-layout: fixed;
+	  text-align:left;
 	  width: 100%;
 	  
 	  li {

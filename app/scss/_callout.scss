@@ -17,7 +17,7 @@
 		background: rgba($steel-blue, .6);
 		width: 420px;
 		float:left;
-		margin:-320px 0 0;
+		margin:-300px 0 0 1em;
 		padding:2em;
 
 		h1 + p {
@@ -26,7 +26,7 @@
 	}
 
 	@media all and (min-width:960px) {
-		top:280px;
+		margin:-300px 0 0;
 	}
 }
 
