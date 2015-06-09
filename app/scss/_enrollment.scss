@@ -2,7 +2,6 @@
 	padding: 1em;
 
 	h1 {
-		font-size:2em;
 		text-align: center;
 	}
 }
@@ -52,7 +51,7 @@
 	.call-to-action {
 		display: block;
 		color: $steel-blue;
-		font-size: 1.2em;
+		font-size: 1.125em;
 		font-weight:600;
 		line-height: 1em;
 		margin: 1.5em -1em 0;
@@ -73,25 +72,30 @@
 
 			}
 
-		@media (min-width:680px) {
+		@media (min-width:600px) {
+			display:table;
 			margin:1.5em auto 0;
 		}
 
 		@media (min-width:960px) {
-			max-width:250px;
+			//max-width:250px;
 		}
 	}
 
 	a.call-to-action {
 		background-color: $mint;
 		border-radius: 3px;
-		border-bottom: 2px solid darken($mint, 5);
+		//border-bottom: 2px solid darken($mint, 5);
 		color: #fff;
 		font-weight:400;
 		overflow: hidden;
-		padding: 1em 2em 1em 1em;
+		padding: 1.125em 3.625em 1.125em 1.625em;
 		text-decoration: none;
 		transition: padding 0.5s;
+
+		&:hover {
+			background-color: darken($mint, 10%);
+		}
 
 		&:after {
 			background:transparent url('../img/arrow.svg') no-repeat center center;
@@ -99,15 +103,10 @@
 			height: 25px;
 			opacity: 1;
 			position: absolute;
-			right: 10px;
-			top: 17px;
+			right: 1.625em;
+			top: 18px;
 			transition: right 0.5s, opacity 1s, transform 0.5s;
 			width: 25px;
-		}
-
-		&:hover:after {
-			opacity: 1;
-			right: 10px;
 		}
 		
 		&:active {
@@ -115,23 +114,7 @@
 		}
 
 		@media (min-width:960px) {
-			padding:1em;
-
-			&:hover {
-				padding-right: 2em;
-			}
-
-			&:after {
-				opacity:0;
-				right:-25px;
-				transform: rotate(180deg);
-			}
-
-			&:hover:after {
-				opacity: 1;
-				right: 10px;
-				transform: rotate(0deg);
-			}
+		
 		}
 	}
 }
@@ -171,6 +154,7 @@
 	  li {
 		  display: table-cell;
 		  border-bottom:none;
+		  padding: 7.5em 2em 3em;
 		  
 		& + li {
 			border-left:10px solid #fff;

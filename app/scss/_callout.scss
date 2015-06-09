@@ -28,23 +28,8 @@
 	@media all and (min-width:960px) {
 		margin:-300px 0 0;
 	}
-}
 
-.callout-extra {
-	padding: 1em;
-	margin:0 0 1em;
-
-	@media (min-width:700px) {
-		margin:0;
-		padding:0 1em 1em 0;
-		display:table-cell;
-		vertical-align: top;
-	}
-}
-
-.table-layout {
-	@media (min-width:700px) {
-		display:table;
-		padding:0 1em;
+	@media all and (min-width:1541px) {
+		margin-left: 2em;
 	}
 }
