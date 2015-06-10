@@ -1,16 +1,33 @@
 .page-footer {
 	background: #3C6B8C;
 	color: #fff;
+	font-size: .75em;
 	max-width:1440px;
 	margin:0 auto;
+	padding:3.125em;
 }
 
 .legal {
-		padding: 1.5em 1em;
+	padding: 1.5em 1em;
+
+	@media (min-width:768px) {
+		display: inline-block;
+		padding-left:2em;
+		width:70%;
+	}
 }
 
 .cl-branding {
-	background: $steel-blue;
 	text-align: center;
-	padding:1.5em 0 1.5em;
+	padding:1.5em 1em;
+
+	p {
+		text-align: left;
+	}
+
+	@media (min-width:768px) {
+		display:inline-block;
+		text-align:left;
+		width:25%;
+	}
 }
