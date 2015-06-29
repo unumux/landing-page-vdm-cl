@@ -1,23 +1,18 @@
 .banner {
-	background: url('../img/placeholder600.jpg') no-repeat center right;
+	background: url('../img/placeholder_mobile.jpg') no-repeat center right;
 	background-size:cover;
 	min-height: 300px;
 	padding: 1em 1em 0;
 	transition: all ease 0.2s;
 
 	@media all and (min-width:500px) {
-		background-image: url('../img/placeholder1024.jpg');
-		background-position: right 20%;
+		background-image: url('../img/placeholder.jpg');
+		background-position: left 20%;
 	}
 
 	@media all and (min-width:680px) {
 		margin:0 0 1em;
 		min-height: 400px;
-	}
-
-	@media all and (min-width:960px) {
-		background-image: url('../img/placeholder.jpg');
-		background-position: right 20%;
 	}
 }
 
