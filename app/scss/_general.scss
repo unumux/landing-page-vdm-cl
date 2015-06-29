@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 2.8em;
+  font-size: 2.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,12 +26,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0 0;
 }
 
+h3 {
+  font-size:1.5em;
+}
+
 strong {
   font-weight: 600;
 }
 
 a {
-  text-decoration:none;
+  color: $ocean;
+  text-decoration:underline;
 }
 
 img {
@@ -41,6 +46,7 @@ img {
 ul {
   margin: 0;
   padding: 0;
+  list-style-type:none;
 }
 
 p {

@@ -129,7 +129,7 @@ module.exports = function (grunt) {
         },
         jsFiles: ['js/**/*.js', '!js/**/*.min.js'],
         cssFiles: ['css/**/*.css', '!css/**/*.min.css'],
-        targetHtml: ['index.html']
+        targetHtml: ['index.html', 'second.html']
       },
       dist: {
         options: {
@@ -137,7 +137,7 @@ module.exports = function (grunt) {
         },
         jsFiles: ['js/**/*.min.js'],
         cssFiles: ['css/**/*.min.css'],
-        targetHtml: ['index.html']
+        targetHtml: ['index.html', 'second.html']
       }
     },
 

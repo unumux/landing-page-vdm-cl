@@ -33,3 +33,19 @@
 		margin-left: 2em;
 	}
 }
+
+.btn {
+		background-color: white;
+		border-radius: 3px;
+		//border-bottom: 2px solid darken($mint, 5);
+		color: $steel-blue;
+		font-weight:400;
+		overflow: hidden;
+		padding: 1.125em 1.625em;
+		text-decoration: none;
+		transition: padding 0.5s;
+
+		&:hover {
+			background-color: darken(white, 10%);
+		}
+}
