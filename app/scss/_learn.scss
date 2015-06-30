@@ -1,0 +1,54 @@
+.learn-more {
+	margin-top:2em;
+
+	h1 {
+		color: $leaf;
+		margin:0 0 .5em;
+		text-align:center;
+	}
+
+	h3 {
+		color:#fff;
+	}
+
+	li {
+		background: $steel-blue;
+		color: #fff;
+		padding:1em;
+
+		ul li {
+			padding:0;
+			font-weight:600;
+		}
+	}
+
+	@media (min-width:680px) {
+		ul {
+			display:flex;
+		}
+
+		li {
+			width:48%;
+
+			ul {
+				display:block;
+
+				li {
+					display:block;
+					width:auto;
+					margin:0;
+
+					+ li {
+						margin-left:0;
+					}
+				}
+
+			}
+
+			+ li {
+				margin-left:2%;
+			}
+		}
+
+	}
+}
