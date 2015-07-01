@@ -1,15 +1,12 @@
 .options {
-	background: $steel-blue;
+	background: url('../img/options_mobile.jpg') no-repeat $steel-blue;
+	backgroun-size:cover;
 	color:#fff;
-	padding:1em 0 2em;
+	padding:2em 0 2.5em;
 	margin:2em 0;
 	text-align:center;
 
-	h1 {
-		color: #fff;
-	}
-
-	h3 {
+	h2, h3 {
 		color: #fff;
 	}
 }
@@ -21,7 +18,7 @@
 	font-family: 'Oswald';
 	font-size:1.5em;
 	margin:1em 0 0;
-	padding:1em;
+	padding:.8em;
 
 	h3 {
 		font-size: 1.5rem;
@@ -33,3 +30,80 @@
 		width:percentage((1/3));
 	}
 }
+
+.benefits-icon-list {
+	margin:1em 0;
+	font-weight:600;
+
+	&:after {
+		display:table;
+		clear:both;
+		content: '';
+	}
+
+	li {
+		float: left;
+		margin: 0px 0px 1.5em;
+		line-height: 1;
+		padding: 3.3em 0px 0px;
+		width: 33%;
+	}
+}
+
+.icon-accident {
+	background: url('../img/accident.svg') no-repeat center 5px;
+}
+
+.icon-cancer {
+	background: url('../img/Cancer.svg') no-repeat center 5px;
+}
+
+.icon-critical {
+	background: url('../img/criticalillness.svg') no-repeat center 0;
+}
+
+.icon-dental {
+	background: url('../img/dental-tooth.svg') no-repeat center 0;
+}
+
+.icon-disability {
+	background: url('../img/disability.svg') no-repeat center 0;
+}
+
+.icon-hospital {
+	background: url('../img/hospital.svg') no-repeat center 0;
+}
+
+.icon-life {
+	background: url('../img/life.svg') no-repeat center 0;
+} 
+
+// no SVG fallback
+
+.no-svg .icon-accident {
+	background: url('../img/accident.png') no-repeat center 5px;
+}
+
+.no-svg .icon-cancer {
+	background: url('../img/cancer.png') no-repeat center 5px;
+}
+
+.no-svg .icon-critical {
+	background: url('../img/criticalillness.png') no-repeat center 0;
+}
+
+.no-svg .icon-dental {
+	background: url('../img/dental-tooth.png') no-repeat center 0;
+}
+
+.no-svg .icon-disability {
+	background: url('../img/disability.png') no-repeat center 0;
+}
+
+.no-svg .icon-hospital {
+	background: url('../img/hospital.png') no-repeat center 0;
+}
+
+.no-svg .icon-life {
+	background: url('../img/life.png') no-repeat center 0;
+} 

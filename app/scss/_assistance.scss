@@ -1,0 +1,25 @@
+.assistance {
+	background: url('../img/assistance_mobile.jpg') no-repeat;
+	color: #fff;
+	padding:2em 0;
+	text-align:center;
+
+	h1 {
+		color: #fff;
+		margin-bottom:.8rem;
+	}
+
+	p {
+		font-size: 1.2em;
+		margin:0 0 1rem;
+	}
+
+	ul {
+		font-weight: 600;
+		font-size:1.2em;
+
+		li {
+			margin:0 0 .4rem;
+		}
+	}
+}

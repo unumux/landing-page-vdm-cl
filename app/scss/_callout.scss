@@ -1,8 +1,9 @@
 .callout {
 	background: $steel-blue;
 	color: #fff;
-	margin: 0 0 1em;
+	margin: 0 -1em 1em;
 	padding: 2em 1em;
+	text-align:center;
 
 	h1 {
 		color: #fff;
@@ -18,6 +19,7 @@
 		width: 420px;
 		float:left;
 		margin:-300px 0 0 1em;
+		text-align:left;
 		padding:2em;
 
 		h1 + p {
@@ -39,6 +41,8 @@
 		border-radius: 3px;
 		//border-bottom: 2px solid darken($mint, 5);
 		color: $steel-blue;
+		cursor: pointer;
+		display: inline-block;
 		font-weight:400;
 		overflow: hidden;
 		padding: 1.125em 1.625em;

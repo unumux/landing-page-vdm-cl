@@ -15,15 +15,22 @@ body {
   font-weight: 300;
 }
 
-h1 {
-  font-size: 2.6em;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: $steel-blue;
   font-family: 'Oswald', 'sans-serif';
   font-weight: 300;
   margin: 1em 0 0 0;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin-bottom:1rem;
+}
+
+h2 {
+  color: $leaf;
+  font-size:2.4em;
+  margin-bottom:1rem;
 }
 
 h3 {
@@ -35,7 +42,7 @@ strong {
 }
 
 a {
-  color: $ocean;
+  color: $dark-red;
   text-decoration:underline;
 }
 
@@ -59,6 +66,7 @@ img {
 
 .contain {
   margin: 0 auto;
+  padding:0 .8em 0;
 }
 
 @media all and (min-width: 768) {
@@ -87,4 +95,8 @@ img {
 
 :first-child {
   margin-top: 0;
+}
+
+iframe {
+  max-width:100%;
 }
