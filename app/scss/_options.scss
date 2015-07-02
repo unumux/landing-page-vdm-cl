@@ -21,7 +21,7 @@
 	box-shadow: inset 0 0 1px #333;
 	font-family: 'Oswald';
 	font-size:1.5em;
-	margin:1em 0 0;
+	margin:1em 5px 0;
 	padding:.8em;
 
 	h3 {
@@ -39,6 +39,7 @@
 	margin:1em 0;
 	font-weight:600;
 
+
 	&:after {
 		display:table;
 		clear:both;
@@ -51,6 +52,31 @@
 		line-height: 1;
 		padding: 3.3em 0px 0px;
 		width: 33%;
+	}
+
+	@media (min-width:480px) {
+	   display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	    flex-direction: row;
+	    -webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    -webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	    align-content: center;
+	    -webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	    align-items: flex-start;
+
+	    li {
+	    	width: 25%;
+	    }
 	}
 
 	@media (min-width: 680px) {
