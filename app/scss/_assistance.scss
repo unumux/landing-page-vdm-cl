@@ -1,10 +1,11 @@
 .assistance {
 	background: url('../img/assistance_mobile.jpg') no-repeat;
+	background-size:cover;
 	color: #fff;
-	padding:2em 0;
+	padding:2.4em 0;
 	text-align:center;
 
-	h1 {
+	h2 {
 		color: #fff;
 		margin-bottom:.8rem;
 	}
@@ -21,5 +22,10 @@
 		li {
 			margin:0 0 .4rem;
 		}
+	}
+
+	@media (min-width:680px) {
+		//background-image: url('../img/assistance_desktop.jpg');
+		background: url('../img/assistance_desktop.jpg') no-repeat;
 	}
 }

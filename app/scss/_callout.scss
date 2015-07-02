@@ -16,7 +16,7 @@
 
 	@media (min-width:680px) {
 		background: rgba($steel-blue, .6);
-		width: 420px;
+		width: 450px;
 		float:left;
 		margin:-300px 0 0 1em;
 		text-align:left;
@@ -43,9 +43,10 @@
 		color: $steel-blue;
 		cursor: pointer;
 		display: inline-block;
+		font-size:1.125em;
 		font-weight:400;
 		overflow: hidden;
-		padding: 1.125em 1.625em;
+		padding: 1rem 1.125rem;
 		text-decoration: none;
 		transition: padding 0.5s;
 
