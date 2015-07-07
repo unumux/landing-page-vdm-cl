@@ -12,6 +12,7 @@
 
 	@media (min-width:680px) {
 		background: url('../img/options_desktop.jpg') no-repeat; 
+		background-size:cover;
 	}
 }
 
@@ -103,6 +104,21 @@
 	    	padding:3.3em 1em 0;
 	    	width:auto;
 	    }
+
+	}
+
+
+}
+
+.no-flexbox .benefits-icon-list {
+	margin: 1em auto 0;
+
+	li {
+			width:25%;
+	}
+	
+	@media (min-width:680px) {
+		width:600px;
 	}
 }
 

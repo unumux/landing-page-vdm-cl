@@ -1,6 +1,7 @@
 .callout {
 	background: $steel-blue;
 	color: #fff;
+	min-height:253px;
 	margin: 0 -1em 1em;
 	padding: 1.8em 1em;
 	text-align:center;
@@ -28,7 +29,7 @@
 	}
 
 	@media all and (min-width:960px) {
-		margin:-300px 0 0;
+		margin:-310px 0 0;
 	}
 
 	@media all and (min-width:1541px) {
