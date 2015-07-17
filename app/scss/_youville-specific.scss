@@ -1,0 +1,147 @@
+.youville-vdm {
+	h1, h2, h3, h4, h5, h6 {
+		color: $leaf;
+		font-family: "Source Sans Pro";
+		font-weight:600;
+	}
+
+	.page-header {
+		font-family: "Source Sans Pro";
+		font-weight: 600;
+	}
+
+	.banner {
+		background: url('../img/sky_mobile.jpg') no-repeat center center;
+		background-size:cover;
+		height:380px;
+
+		@media (min-width:680px) {
+			background-image: url('../img/sky_desktop.jpg');
+		}
+	}
+
+	.enrollment-message {
+		color: $leaf;
+	}
+
+	.callout {
+		background: #fff;
+		border-radius:8px;
+		color:$youville-blue;
+		min-height:auto;
+		
+		text-align:center;
+
+		float:left;
+		margin:-285px 0 0;
+
+
+		@media (min-width:680px) {
+			padding:2em;
+			margin-top:-300px;
+			margin-left:calc(50% - 225px);
+		}
+	}
+
+	.enrollment-options h3 {
+		color: $youville-blue;
+	}
+
+	.enrollment-options h4 {
+		color: $charcoal;
+	}
+
+	.in-person {
+		background-image: url('../img/icon-person-youville.svg');
+	}
+
+	.no-svg .in-person {
+		background-image: url('../img/icon-person-youville.png');
+	}
+
+	.by-phone {
+		background-image: url('../img/icon-phone-youville.svg');
+	}
+
+	.no-svg .by-phone {
+		background-image: url('../img/icon-phone-youville.png');
+	}
+
+	.online {
+		background: url('../img/icon-online-youville.svg') no-repeat center top;
+	}
+
+	.no-svg .online {
+		background: url('../img/icon-online-youville.png') no-repeat center top;
+	}
+
+	a.call-to-action {
+		background: $youville-blue;
+
+		&:hover {
+			background-color: darken($youville-blue, 10%);
+		}
+	}
+
+	.requirements {
+		background: url('../img/dependents_youville_mobile.jpg') center center no-repeat;
+		background-size:cover;
+		color: $youville-blue;
+		padding-top:3em;
+		padding-bottom:3em;
+
+		.contain {
+			background:#fff;
+			border-radius:8px;
+			padding-top:2em;
+			padding-bottom:.5em;
+
+			@media (min-width:768px) {
+				width:680px;
+			}
+		}
+
+		@media (min-width:680px) {
+			background-image: url('../img/dependents_youville_desktop.jpg') 
+		}
+	}
+
+	.name {
+		background: url('../img/profile-small_youville.svg') no-repeat center 5px;
+	}
+
+	.birthday {
+		background: url('../img/birthday_youville.svg') no-repeat top center;
+	}
+
+	.ssn {
+		background: url('../img/ssn_card_youville.svg') no-repeat center 10px;
+	}
+
+	.address {
+		background: url('../img/house-small_youville.svg') no-repeat center 10px;
+	}
+
+	//IE8 PNG Fallback
+
+	.no-svg .name {
+		background-image: url('../img/profile-small_youville.png');
+	}
+
+	.no-svg .birthday {
+		background-image: url('../img/birthday_youville.png');
+	}
+
+	.no-svg .ssn {
+		background-image: url('../img/ssn_card_youville.png');
+	}
+
+	.no-svg .address {
+		background-image: url('../img/house-small_youville.png')
+	}
+
+	.page-footer {
+		background: #fff;
+		color: $steel-blue;
+	}
+}

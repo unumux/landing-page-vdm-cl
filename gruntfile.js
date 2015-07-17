@@ -36,7 +36,7 @@ module.exports = function (grunt) {
         options: {
           sourceMap: true
         },
-        src: ['app/js/**/*.js'],
+        src: ['app/js/**/*.js', '!js/modernizr.js'],
         dest: 'dist/js/main.js'
       }
     },
@@ -127,15 +127,15 @@ module.exports = function (grunt) {
         options: {
           cwd: "dist"
         },
-        jsFiles: ['js/**/*.js', '!js/**/*.min.js'],
+        jsFiles: ['js/**/*.js', '!js/**/*.min.js', '!js/modernizr.js'],
         cssFiles: ['css/**/*.css', '!css/**/*.min.css'],
-        targetHtml: ['index.html', 'second.html']
+        targetHtml: ['index.html', 'second.html', 'youville.html']
       },
       dist: {
         options: {
           cwd: "dist"
         },
-        jsFiles: ['js/**/*.min.js'],
+        jsFiles: ['js/**/*.min.js', '!js/modernizr.js'],
         cssFiles: ['css/**/*.min.css'],
         targetHtml: ['index.html', 'second.html']
       }
