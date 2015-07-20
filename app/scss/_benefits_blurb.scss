@@ -6,5 +6,50 @@
 	p {
 		margin:.25em 0 .5em;
 	}
+
+	@media (min-width:680px) {
+		ul {
+			display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		    flex-direction: row;
+		    -webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    text-align:left;
+
+		    li {
+		    	width:50%;
+		    	padding:1em .5em;
+		    }
+
+			ul {
+				display:block;
+
+				li {
+					width:auto;
+					padding:3px;
+				}
+			}
+		}
+	}
+
+	@media all and (min-width: 960px) and (max-width: 1240px) {
+
+		&.contain {
+			width:880px;
+		}
+
+	}
+
+	@media (min-width:1241px) {
+
+		&.contain {
+			width:900px;
+		}
+
+	}
 }
 
