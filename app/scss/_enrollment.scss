@@ -26,13 +26,14 @@
 
 	h4 {
 		color: $charcoal;
-		font-family: "Source Sans Pro", sans-serif;
-		font-size:16px;
-		font-weight:600;
+		font-family: 'Source Sans Pro';
+		font-size: .8em;
+		font-weight: 600;
 	}
 
 	h4 + p {
 		margin:0;
+		font-size: .8em;
 	}
 
 	li {
@@ -47,12 +48,6 @@
 		&:last-child {
 			border-bottom: none;
 			margin:0;
-		}
-		
-		h4 {
-			font-family: 'Source Sans Pro';
-			font-size: 1em;
-			font-weight: 600;
 		}
 
 		&.online {

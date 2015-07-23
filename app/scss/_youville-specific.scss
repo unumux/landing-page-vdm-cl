@@ -43,12 +43,106 @@
 		}
 	}
 
+	.options {
+		background-image: url('../img/options-youville-mobile.jpg');
+		color: $charcoal;
+		font-weight:400;
+
+		.contain {
+			background: #fff;
+			border-radius: 8px;
+			margin:1em .5em;
+			padding:1em;
+
+			@media (min-width:680px) {
+				margin:0 auto;
+			}
+		}
+
+		h3 {
+			color: $charcoal;
+			font-weight:400;
+		}
+
+		ul {
+			color: $youville-blue;
+		}
+
+		@media (min-width:680px) {
+			background-image: url('../img/options-youville-desktop.jpg');
+		}
+	}
+
+	.icon-accident {
+		background: url('../img/accident-youville.svg') no-repeat center 5px;
+	}
+
+	.icon-cancer {
+		background: url('../img/cancer-youville.svg') no-repeat center 5px;
+	}
+
+	.icon-critical {
+		background: url('../img/criticalillness-youville.svg') no-repeat center 0;
+	}
+
+	.icon-dental {
+		background: url('../img/dental-youville.svg') no-repeat center 0;
+	}
+
+	.icon-disability {
+		background: url('../img/disability-youville.svg') no-repeat center 0;
+	}
+
+	.icon-hospital {
+		background: url('../img/hospital-youville.svg') no-repeat center 0;
+	}
+
+	.icon-life {
+		background: url('../img/life-youville.svg') no-repeat center 0;
+	} 
+
+	// no SVG fallback
+
+	.no-svg .icon-accident {
+		background: url('../img/accident-youville.png') no-repeat center 5px;
+	}
+
+	.no-svg .icon-cancer {
+		background: url('../img/cancer-youville.png') no-repeat center 5px;
+	}
+
+	.no-svg .icon-critical {
+		background: url('../img/criticalillness-youville.png') no-repeat center 0;
+	}
+
+	.no-svg .icon-dental {
+		background: url('../img/dental-youville.png') no-repeat center 0;
+	}
+
+	.no-svg .icon-disability {
+		background: url('../img/disability-youville.png') no-repeat center 0;
+	}
+
+	.no-svg .icon-hospital {
+		background: url('../img/hospital-youville.png') no-repeat center 0;
+	}
+
+	.no-svg .icon-life {
+		background: url('../img/life-youville.png') no-repeat center 0;
+	} 
+
 	.enrollment-options h3 {
 		color: $youville-blue;
 	}
 
 	.enrollment-options h4 {
 		color: $charcoal;
+	}
+
+	.benefits-blurb {
+		h3 {
+			color: $youville-blue;
+		}
 	}
 
 	.in-person {
@@ -138,6 +232,17 @@
 
 	.no-svg .address {
 		background-image: url('../img/house-small_youville.png')
+	}
+
+	.learn-more {
+		h3, .li-stats {
+			color: $youville-blue;
+		}
+	}
+
+	.assistance {
+		font-weight:400;
+		background: $youville-blue;
 	}
 
 	.page-footer {

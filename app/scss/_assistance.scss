@@ -3,24 +3,12 @@
 	background: rgba($steel-blue, .8);
 	border-bottom: 1px solid #fff;
 	color: #fff;
+	font-size: 1.2em;
+	font-weight:600;
 	padding:1em 0;
 	text-align:center;
 
 	a {
 		color: #fff;
-	}
-
-	p {
-		font-size: 1.2em;
-		font-weight:600;
-	}
-
-	ul {
-		font-weight: 600;
-		font-size:1.2em;
-
-		li {
-			margin:0 0 .4rem;
-		}
 	}
 }
