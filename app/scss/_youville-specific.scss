@@ -5,6 +5,23 @@
 		font-weight:600;
 	}
 
+	h1 {
+		font-size:2.2em;
+
+		@media (min-width:680px) {
+			font-size:2.4em;
+		}
+	}
+
+	.btn {
+		background: $leaf;
+		color: #fff;
+
+		&:hover, &:active {
+			background: darken($leaf, 10%);
+		}
+	}
+
 	.page-header {
 		font-family: "Source Sans Pro";
 		font-weight: 600;
@@ -56,6 +73,11 @@
 
 			@media (min-width:680px) {
 				margin:0 auto;
+				width:680px;
+			}
+
+			@media (min-width:992px) {
+				width:850px;
 			}
 		}
 
