@@ -18,7 +18,8 @@
 	}
 
 	p {
-		margin-top:1.5em;
+		margin:1.5em 0;
+		font-size:1.3em;
 	}
 
 	@media (min-width:680px) {
@@ -33,6 +34,9 @@
 	}
 
 	li {
+		font-family: 'Oswald';
+		font-size:1.2em;
+		font-weight:400;
 		padding:2px;
 	}
 }
@@ -49,6 +53,9 @@
 
 	li {
 		float: left;
+		font-family: 'Source Sans Pro';
+		font-size:1em;
+		font-weight:600;
 		margin: 0px 0px 1.5em;
 		line-height: 1;
 		padding: 3.3em 0px 0px;
