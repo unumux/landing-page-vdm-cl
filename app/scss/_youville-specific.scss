@@ -88,6 +88,11 @@
 
 		ul {
 			color: $youville-blue;
+
+			li {
+				font-family: 'Source Sans Pro';
+				font-weight:600;
+			}
 		}
 
 		@media (min-width:680px) {
